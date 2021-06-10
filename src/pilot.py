@@ -188,6 +188,5 @@ cv2.destroyAllWindows()
 
 
 """
-python people_counter.py --prototxt mobilenet_ssd/MobileNetSSD_deploy.prototxt \
-	--model mobilenet_ssd/MobileNetSSD_deploy.caffemodel \
-	--input videos/example_01.mp4 --output output/output_01.avi"""
+python src/pilot.py --prototxt resources/MobileNetSSD_deploy.prototxt --model resources/MobileNetSSD_deploy.caffemodel\
+     --input test_data/pexels-george-morina-5372952.mp4 --output output_test/output_01.avi"""
