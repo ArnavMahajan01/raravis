@@ -160,6 +160,7 @@ while True:
         writer.write(frame)
     
 #     cv2.imshow("Frame", frame)
+    cv2.imwrite("./output_test/waka.jpg", frame )
     key = cv2.waitKey(1) & 0xFF
 
     if key == ord("q"):
