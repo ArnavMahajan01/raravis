@@ -160,7 +160,7 @@ while True:
         writer.write(frame)
     
 #     cv2.imshow("Frame", frame)
-    writeStatus = cv2.imwrite("output_test/waka.jpg", frame )
+    writeStatus = cv2.imwrite("waka.png", frame )
 	
     if writeStatus is True:
     	print("image written")
