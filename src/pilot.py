@@ -47,7 +47,7 @@ W = None
 H = None
 
 
-ct = CentroidTracker(maxDisappeared=40, maxDistance=50)
+ct = CentroidTracker(maxDisappeared=40)
 trackers = []
 trackableObjects = {}
 
