@@ -161,7 +161,7 @@ while True:
         writer.write(frame)
     
 #     cv2.imshow("Frame", frame)
-    stat = os.path.join("output/",totalFrames,"/waka.png")
+    stat = os.path.join("output/",str(totalFrames),"/waka.png")
     print(stat);
     writeStatus = cv2.imwrite(stat, frame)
 	
