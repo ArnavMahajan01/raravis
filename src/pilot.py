@@ -74,7 +74,7 @@ while True:
         (H, W) = frame.shape[:2]
 
     if args["output"] is not None and writer is None:
-        fourcc = cv2.VideoWriter_fourcc(*"MJPG")
+        fourcc = cv2.VideoWriter_fourcc(*"XVID")
         writer = cv2.VideoWriter(args["output"], fourcc, 30,
             (W, H), True)
 
