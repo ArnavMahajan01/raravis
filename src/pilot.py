@@ -47,7 +47,7 @@ W = None
 H = None
 
 
-ct = CentroidTracker(maxDisappeared=40, maxDistance=50)
+ct = CentroidTracker(maxDisappeared=40)
 trackers = []
 trackableObjects = {}
 
@@ -159,7 +159,7 @@ while True:
     if writer is not None:
         writer.write(frame)
     
-    cv2.imshow("Frame", frame)
+#     cv2.imshow("Frame", frame)
     key = cv2.waitKey(1) & 0xFF
 
     if key == ord("q"):
